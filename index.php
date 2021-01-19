@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     
     <!--====== Title ======-->
-    <title>Smash - Bootstrap Business Template</title>
+    <title>Yoyaku - Sistem Manajemen</title>
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -79,7 +79,7 @@
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item active"><a class="page-scroll" href="#home">home</a></li>
+                                <li class="nav-item active"><a class="page-scroll" href="#home">Beranda</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#benefit">Benefit</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#fitur">Fitur</a></li>
                                 <li class="nav-item"><a class="page-scroll" href="#harga">Harga</a></li>
