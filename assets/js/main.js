@@ -226,31 +226,29 @@ $('#contact').validate({
         },
         jenis_rental: "Harap pilih minimal satu",
         phone: "Harap isi nomor telepon"
+    },
+    submitHandler: function(form) {
+        // do other things for a valid form
+        var data = new FormData($(form)[0]);
+        $.ajax({
+            type: 'post',
+            url: $(that).attr('action'),
+            data: data,
+            processData: false,
+            contentType: false,
+            beforeSend: function () {
+                $('#sender').attr('disabled', 'true');
+                $('#sender').html('Mengirim...');
+            },
+            success: function (response) {
+                Swal.fire(
+                    'Sukses!',
+                    'Pesan anda terkirim!',
+                    'success'
+                );
+                $('#sender').html('Kirim');
+                $('#sender').removeAttr('disabled');
+            }
+        })
     }
 });
-
-function submitContact(that) {
-    
-    var data = new FormData($(that)[0]);
-    $.ajax({
-        type: 'post',
-        url: $(that).attr('action'),
-        data: data,
-        processData: false,
-        contentType: false,
-        beforeSend: function () {
-            $('#sender').attr('disabled', 'true');
-            $('#sender').html('Mengirim...');
-        },
-        success: function (response) {
-            Swal.fire(
-                'Sukses!',
-                'Pesan anda terkirim!',
-                'success'
-            );
-            $('#sender').html('Kirim');
-            $('#sender').removeAttr('disabled');
-        }
-    })
-}
-
