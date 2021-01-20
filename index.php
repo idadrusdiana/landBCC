@@ -367,7 +367,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="assets/images/motor2.jpg" alt="tanda tanya">
+                        <img src="assets/images/qa.jpg" alt="tanda tanya">
                     </div> <!-- faq image -->
                 </div>
             </div>             
@@ -500,8 +500,8 @@
                                     <div class="form-input mt-25">
                                         <span>Jenis Rental (wajib)</span>
                                         <div class="checkbox-items default">                                            
-                                            <span class="checkbox"><input type="checkbox" value="Rental Motor">&nbsp Rental Motor</span> <br>
-                                            <span class="checkbox"><input type="checkbox" value="Rental Mobil">&nbsp Rental Mobil</span>                              
+                                            <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Motor">&nbsp Rental Motor</span> <br>
+                                            <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Mobil">&nbsp Rental Mobil</span>                              
                                         </div>
                                     </div> <!-- form input -->
                                 </div>                                
@@ -529,7 +529,7 @@
                                     <div class="form-input mt-25">
                                         <span>Isi Pertanyaan</span>
                                         <div class="input-items default">
-                                            <textarea name="message" placeholder="Pertanyaan"></textarea>
+                                            <textarea name="pertanyaan" placeholder="Pertanyaan"></textarea>
                                             <i class="lni lni-pencil-alt"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -537,7 +537,7 @@
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
                                     <div class="form-input light-rounded-buttons mt-30">
-                                        <button class="main-btn light-rounded-two">Send</button>
+                                        <button id="sender" class="main-btn light-rounded-two">Kirim</button>
                                     </div> <!-- form input -->
                                 </div>
                             </div> <!-- row -->
@@ -557,7 +557,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="assets/images/yoyaku.png" alt="Logo" height="100" width="300"></a>
+                        <a class="mt-30" href="index.html"><img src="assets/images/yoyaku.png" alt="Logo" width="200"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://www.facebook.com/yoyaku.id/"><i class="lni lni-facebook-filled"></i></a></li>                        
@@ -627,6 +627,8 @@
     <!--====== Scrolling Nav js ======-->
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
     
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>

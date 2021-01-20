@@ -209,8 +209,18 @@ function submitContact(that) {
         data: data,
         processData: false,
         contentType: false,
+        beforeSend: function () {
+            $('#sender').attr('disabled', 'true');
+            $('#sender').html('Mengirim...');
+        },
         success: function (response) {
-            console.log(response);
+            Swal.fire(
+                'Sukses!',
+                'Pesan anda terkirim!',
+                'success'
+            );
+            $('#sender').html('Kirim');
+            $('#sender').removeAttr('disabled');
         }
     })
 }

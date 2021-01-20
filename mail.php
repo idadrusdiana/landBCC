@@ -11,14 +11,25 @@ require 'vendor/autoload.php';
 // Instantiation and passing `true` enables exceptions
 $mail = new PHPMailer(true);
 
+// $value = null; // Define the variable and set a default value
+
+// if (isset($_POST['jenis_rental'])) {
+//     // empty() is not needed since 'checkbox' won't be sent
+//     // if none was selected.
+
+//     $value = implode(' , ', $_POST['jenis_rental']);
+//     $value = test_input($value);
+
+// }
+
 try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'remajatanggoeh@gmail.com';                     // SMTP username
-    $mail->Password   = 'Aczx26120roe';                               // SMTP password
+    $mail->Username   = 'sumrochkaryaindonesia@gmail.com';                     // SMTP username
+    $mail->Password   = '@Jalanpaskal23';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
@@ -28,14 +39,20 @@ try {
     $mail->addCC('sri@yoyaku.id');
     $mail->addBCC('agunbuhori@gmail.com');
 
+    $jenis_rental = implode(', ', $_POST['jenis_rental']);
+
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Email dari calon customer';
-    $mail->Body    = "
-    
-        Dari : {$_POST['name']} <br>
-        No. Telp : {$_POST['phone']}
-    ";
+    $mail->Body    = "    
+        Dari         : {$_POST['name']} <br>
+        Email        : {$_POST['email']} <br>
+        No. WA       : {$_POST['phone']} <br>
+        Subject      : {$_POST['subject']} <br>
+        Jenis Rental : {$jenis_rental} <br>
+        Jumlah Unit  : {$_POST['jumlah']} <br>
+        Pertanyaan   : {$_POST['pertanyaan']} <br>
+   ";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
