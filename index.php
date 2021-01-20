@@ -451,7 +451,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
-                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
+                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Hubungi <span>Kami.</span></h4>
                         
                         <form id="contact" method="post" action="mail.php">
                             <div class="row">

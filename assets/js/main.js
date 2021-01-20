@@ -233,7 +233,7 @@ $('#contact').validate({
             email: "Alamat email tidak valid"
         },
         jenis_rental: "Harap pilih minimal satu",
-        phone: "Harap isi nomor telepon"
+        phone: "Harap masukkan nomor telepon"
     },
     submitHandler: function(form) {
         // do other things for a valid form
