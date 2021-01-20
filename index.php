@@ -400,7 +400,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="contact-map mt-30">
                         <!-- <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Mission%20District%2C%20San%20Francisco%2C%20CA%2C%20USA&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
-                        <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.793805706278!2d107.59288441431708!3d-6.915238819602023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e61659126089%3A0x621865311e7d9e36!2sPaskal%20Hyper%20Square%2C%20Jl.%20Pasir%20Kaliki%20No.23%2C%20Arjuna%2C%20Kec.%20Cicendo%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040172!5e0!3m2!1sid!2sid!4v1610958440908!5m2!1sid!2sid" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe id="gmap_canvas" src="" width="600" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     </div> <!-- row -->
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-9">
