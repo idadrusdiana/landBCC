@@ -117,7 +117,7 @@
                     </div> <!-- container -->
                     <div class="slider-image-box d-none d-lg-flex align-items-end">
                         <div class="slider-image">
-                            <img src="assets/images/banner/rent yoyaku.png" alt="Hero">
+                            <!-- <img src="assets/images/banner/rent yoyaku.png" alt="Hero"> -->
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
                 </div> <!-- carousel-item -->               

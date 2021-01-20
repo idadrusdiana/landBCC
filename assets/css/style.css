@@ -2365,13 +2365,16 @@ p {
 ===========================*/
 .carousel-item {
   background-color: #13ADC1;
+  background-image: url('../images/rent yoyaku.png');
+  background-repeat: no-repeat;
+  background-position: right;
   position: relative; }
   .carousel-item::before {
     position: absolute;
     content: '';
     width: 33%;
     height: 100%;
-    background: -webkit-linear-gradient(rgba(43, 219, 220, 0.3) 100%, rgba(43, 219, 220, 0.3) 100%);
+    /* background: -webkit-linear-gradient(rgba(43, 219, 220, 0.3) 100%, rgba(43, 219, 220, 0.3) 100%); */
     /* background: -o-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
     background: linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%); */
     top: 0;
