@@ -143,7 +143,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">                        
                             <h4 class="features-title">End User</h4>                                                          
-                            <img src="assets/images/pc.png" alt="Shape" height="100" width="100" align="right">                            
+                            <img src="assets/images/stats.png" alt="Shape" width="100" align="right">                            
                         
                         <div class="features-content">
                             <p class="text">End User melalui Aplikasi dapat mencari motor/mobil yang ada di rekanan rental melalui Sistem YOYAKU.ID  sesuai dengan jenis kendaraan, kota, harga yang dicari oleh  Customer. </p>                            
@@ -153,7 +153,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">                        
                             <h4 class="features-title">Owner</h4>                                                          
-                            <img src="assets/images/owner.png" alt="Shape" height="100" width="80" align="right">                            
+                            <img src="assets/images/id-card.png" alt="Shape" width="100" align="right">                            
                         
                         <div class="features-content">
                             <p class="text">Owner akan mendapatkan notifikasi lewat Mail atau WA  ketika motor/mobil  keluar/masuk dan melakukan  perpanjangan.</p> <br/>                            
@@ -163,7 +163,7 @@
                 <div class="col-lg-4 col-md-7 col-sm-9">
                     <div class="single-features mt-40">                        
                             <h4 class="features-title">Staff</h4>                                                          
-                            <img src="assets/images/HP.png" alt="Shape" height="100" width="70" align="right">                            
+                            <img src="assets/images/smartphone.png" alt="Shape" width="100" align="right">                            
                         
                         <div class="features-content">
                             <p class="text">Staff akan disediakan halaman khusus yang dapat diakses dari HP, yaitu Searching stok motor, rental masuk/keluar, perpanjangan, dll.</p> <br/>                            

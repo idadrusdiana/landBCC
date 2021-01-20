@@ -2537,8 +2537,10 @@ p {
   padding-bottom: 130px; }
 
 .single-features {
-  padding: 40px 20px 52px;
-  background-color: #fff; }
+  padding: 20px 52px;
+    background-color: #fff;
+    height: 280px;
+}
   .single-features .features-title-icon .features-title a {
     font-size: 36px;
     line-height: 45px;
