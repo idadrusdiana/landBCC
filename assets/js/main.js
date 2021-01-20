@@ -232,7 +232,7 @@ $('#contact').validate({
         var data = new FormData($(form)[0]);
         $.ajax({
             type: 'post',
-            url: $(that).attr('action'),
+            url: $(form).attr('action'),
             data: data,
             processData: false,
             contentType: false,
