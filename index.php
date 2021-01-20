@@ -475,7 +475,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
-                                        <span>No Wa (wajib)</span>
+                                        <span>No. HP/Whatsapp (wajib)</span>
                                         <div class="input-items default">
                                             <input name="phone" type="text" placeholder="+62 8996 2293 8111">
                                             <i class="lni lni-phone"></i>
@@ -484,7 +484,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
-                                        <span>Subjek (wajib)</span>
+                                        <span>Subjek</span>
                                         <div class="input-items default">
                                             <select name="subject" class="form-control" aria-required="true" aria-invalid="false">
                                                 <option value="Paket Trial">Paket Trial</option>
@@ -627,6 +627,7 @@
     <!--====== Scrolling Nav js ======-->
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/scrolling-nav.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     

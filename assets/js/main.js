@@ -201,7 +201,36 @@ $(function() {
     
 });
 
+$('#contact').validate({
+    errorClass: "invalid",
+    rules: {
+        name: {
+            required: true,
+        },
+        email: {
+            required: true,
+            email: true
+        },
+        phone: {
+            required: true
+        },
+        jenis_rental: {
+            required: true
+        }
+    },
+    messages: {
+        name: "Harap masukkan nama",
+        email: {
+            required: "Harap masukkan email",
+            email: "Alamat email tidak valid"
+        },
+        jenis_rental: "Harap pilih minimal satu",
+        phone: "Harap isi nomor telepon"
+    }
+});
+
 function submitContact(that) {
+    
     var data = new FormData($(that)[0]);
     $.ajax({
         type: 'post',
