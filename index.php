@@ -367,7 +367,7 @@
                 </div>
                 <div class="col-lg-7">
                     <div class="about-image mt-50">
-                        <img src="assets/images/qa.jpg" alt="tanda tanya">
+                        <img src="assets/images/qa.png" alt="tanda tanya">
                     </div> <!-- faq image -->
                 </div>
             </div>             
