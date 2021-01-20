@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="assets/images/logo Y.svg" type="image/png">
         
     <!--====== Magnific Popup CSS ======-->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -117,7 +117,7 @@
                     </div> <!-- container -->
                     <div class="slider-image-box d-none d-lg-flex align-items-end">
                         <div class="slider-image">
-                            <img src="assets/images/slider/1.png" alt="Hero">
+                            <img src="assets/images/banner/rent yoyaku.png" alt="Hero">
                         </div> <!-- slider-imgae -->
                     </div> <!-- slider-imgae box -->
                 </div> <!-- carousel-item -->               
@@ -557,7 +557,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="footer-logo text-center">
-                        <a class="mt-30" href="index.html"><img src="assets/images/yoyaku.png" alt="Logo" width="200"></a>
+                        <a class="mt-30" href="#home"><img src="assets/images/yoyaku.png" alt="Logo" width="200"></a>
                     </div> <!-- footer logo -->
                     <ul class="social text-center mt-60">
                         <li><a href="https://www.facebook.com/yoyaku.id/"><i class="lni lni-facebook-filled"></i></a></li>                        
