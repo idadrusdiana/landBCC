@@ -31,14 +31,14 @@ try {
     $mail->Username   = 'sumrochkaryaindonesia@gmail.com';                     // SMTP username
     $mail->Password   = '@Jalanpaskal23';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
-    $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
+    $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('sumrochkaryaindonesia@gmail.com', 'Sumroch');
-    $mail->addAddress('sumroch.ki@gmail.com', 'Sumroch');     // Add a recipient
+    $mail->setFrom('yoyaku.id@gmail.com', 'Yoyaku System');
+    $mail->addAddress('sri@yoyaku.id', 'Yoyaku System');     // Add a recipient
     $mail->addCC('sri@yoyaku.id');
     $mail->addCC('agunbuhori@gmail.com');
-    $mail->addCC('gagahyogantara@gmail.com');
+    $mail->addCC('idadrusdiana01@gmail.com');
 
     $jenis_rental = implode(', ', $_POST['jenis_rental']);
 
