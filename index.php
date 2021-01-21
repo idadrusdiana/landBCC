@@ -141,31 +141,28 @@
             </div> <!-- row -->
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">                        
-                            <h4 class="features-title">End User</h4>                                                          
-                            <img src="assets/images/icon/end user.png" alt="Shape" width="100" align="right">                            
-                        
-                        <div class="features-content">
+                    <div class="single-features mt-40" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">                                                                                     
+                            <img src="assets/images/icon/end user.png" alt="Shape" width="100">                           
+                            <h4 class="features-title">End User</h4> 
+                        <div class="features-content" style="text-align: justify;">
                             <p class="text">End User melalui Aplikasi dapat mencari motor/mobil yang ada di rekanan rental melalui Sistem YOYAKU.ID  sesuai dengan jenis kendaraan, kota, harga yang dicari oleh  Customer. </p>                            
                         </div>
                     </div> <!-- single features -->
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">                        
+                    <div class="single-features mt-40" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">                        
+                            <img src="assets/images/icon/owner.png" alt="Shape" width="70">                            
                             <h4 class="features-title">Owner</h4>                                                          
-                            <img src="assets/images/icon/owner.png" alt="Shape" width="70" align="right">                            
-                        
-                        <div class="features-content">
+                        <div class="features-content" style="text-align: justify;">
                             <p class="text">Owner akan mendapatkan notifikasi lewat Mail atau WA  ketika motor/mobil  keluar/masuk dan melakukan  perpanjangan.</p> <br/>                            
                         </div>
                     </div> <!-- single features -->
                 </div>                
                 <div class="col-lg-4 col-md-7 col-sm-9">
-                    <div class="single-features mt-40">                        
-                            <h4 class="features-title">Staff</h4>                                                          
-                            <img src="assets/images/icon/staff.png" alt="Shape" width="70" align="right">                            
-                        
-                        <div class="features-content">
+                    <div class="single-features mt-40" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">                        
+                           <img src="assets/images/icon/staff.png" alt="Shape" width="60" >                            
+                            <h4 class="features-title">Staff</h4>              
+                        <div class="features-content" style="text-align: justify;">
                             <p class="text">Staff akan disediakan halaman khusus yang dapat diakses dari HP, yaitu Searching stok motor, rental masuk/keluar, perpanjangan, dll.</p> <br/>                            
                         </div>
                     </div> <!-- single features -->
