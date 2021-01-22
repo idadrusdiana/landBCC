@@ -37,7 +37,7 @@ try {
     $mail->setFrom('yoyaku.id@gmail.com', 'Yoyaku System');
     $mail->addAddress('sri@yoyaku.id', 'Yoyaku System');     // Add a recipient
     $mail->addCC('sri@yoyaku.id');    
-    // $mail->addCC('idadrusdiana01@gmail.com');
+    $mail->addCC('idadrusdiana01@gmail.com');
 
     $jenis_rental = implode(', ', $_POST['jenis_rental']);
 
