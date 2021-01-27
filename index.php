@@ -452,7 +452,7 @@
                         
                         <form id="contact" method="post" action="mail.php">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-input mt-25">
                                         <span>Nama Lengkap (wajib)</label>
                                         <div class="input-items default">
@@ -461,45 +461,59 @@
                                         </div>
                                     </div> <!-- form input -->
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-input mt-25">
-                                        <span>Email (wajib)</span>
-                                        <div class="input-items default">
-                                            <input type="email" name="email" placeholder="Email">
-                                            <i class="lni lni-envelope"></i>
-                                        </div>
+                                        <span>Nama Rental
+                                            <div class="input-items default">
+                                                <input name="name_rental" type="text" placeholder="Nama Rental">
+                                                <i class="lni lni-restaurant"></i>
+                                            </div>
+                                        </span>
                                     </div> <!-- form input -->
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-input mt-25">
-                                        <span>No. HP/Whatsapp (wajib)</span>
-                                        <div class="input-items default">
-                                            <input name="phone" type="text" placeholder="+62 8996 2293 8111">
-                                            <i class="lni lni-phone"></i>
-                                        </div>
+                                        <span>Email (wajib)
+                                            <div class="input-items default">
+                                                <input type="email" name="email" placeholder="Email">
+                                                <i class="lni lni-envelope"></i>
+                                            </div>
+                                        </span>
                                     </div> <!-- form input -->
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="form-input mt-25">
-                                        <span>Subjek</span>
-                                        <div class="input-items default">
-                                            <select name="subject" class="form-control" aria-required="true" aria-invalid="false">
-                                                <option value="Paket Trial">Paket Trial</option>
-                                                <option value="Paket Starter">Paket Starter</option>
-                                                <option value="Paket Basic">Paket Basic</option>
-                                                <option value="Paket Enterprise">Paket Enterprise</option>
-                                                <option value="Pertanyaan lainnya">Pertanyaan lainnya</option>
-                                            </select>
-                                        </div>                                        
+                                        <span>No. HP/Whatsapp (wajib)
+                                            <div class="input-items default">
+                                                <input name="phone" type="text" placeholder="+62 8996 2293 8111">
+                                                <i class="lni lni-phone"></i>
+                                            </div>
+                                        </span>
+                                    </div> <!-- form input -->
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-input mt-25">
+                                        <span>Subjek
+                                            <div class="input-items default">
+                                                <select name="subject" class="form-control" aria-required="true" aria-invalid="false">
+                                                    <option value="Paket Trial">Paket Trial</option>
+                                                    <option value="Paket Starter">Paket Starter</option>
+                                                    <option value="Paket Basic">Paket Basic</option>
+                                                    <option value="Paket Enterprise">Paket Enterprise</option>
+                                                    <option value="Pertanyaan lainnya">Pertanyaan lainnya</option>
+                                                </select>
+                                            </div>
+                                        </span>                                        
                                     </div>                                    
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-input mt-25">
-                                        <span>Jenis Rental (wajib)</span>
+                                        <span>Jenis Rental (wajib)
                                         <div class="checkbox-items default">                                            
                                             <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Motor">&nbsp Rental Motor</span> <br>
                                             <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Mobil">&nbsp Rental Mobil</span>                              
                                         </div>
+                                        </span>
                                     </div> <!-- form input -->
                                 </div>                                
                                 <div class="col-md-12">

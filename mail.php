@@ -35,9 +35,10 @@ try {
 
     //Recipients
     $mail->setFrom('yoyaku.id@gmail.com', 'Yoyaku System');
-    $mail->addAddress('sri@yoyaku.id', 'Yoyaku System');     // Add a recipient
-    $mail->addCC('sri@yoyaku.id');    
-    $mail->addCC('idadrusdiana01@gmail.com');
+    $mail->addAddress('sri@sumroch.id', 'Yoyaku System');     // Add a recipient
+    $mail->addAddress('official@yoyaku.id');    
+    $mail->addCC('sri@sumroch.id');
+    $mail->addBCC('idadrusdiana01@gmail.com');
 
     $jenis_rental = implode(', ', $_POST['jenis_rental']);
 
@@ -46,6 +47,7 @@ try {
     $mail->Subject = 'Email dari calon customer';
     $mail->Body    = "    
         Dari         : {$_POST['name']} <br>
+        Nama Rental  : {$_POST['name_rental']} <br>
         Email        : {$_POST['email']} <br>
         No. WA       : {$_POST['phone']} <br>
         Subject      : {$_POST['subject']} <br>
