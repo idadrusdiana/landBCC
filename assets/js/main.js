@@ -255,7 +255,7 @@ $('#contact').validate({
                     'success'
                 );
                 $('#sender').html('Kirim');
-                $('#sender').removeAttr('disabled');
+                // $('#sender').removeAttr('disabled');
             }
         })
     }
