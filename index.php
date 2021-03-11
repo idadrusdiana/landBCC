@@ -30,6 +30,16 @@
     
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        #example2 {
+            border: 1px solid;
+            padding: 20px;
+            margin-left:10%;
+            width: 80%;                      
+            box-shadow: 5px 10px #888888;
+        }
+    </style>
     
 </head>
 
@@ -418,7 +428,7 @@
                             <div class="contact-info-icon">
                                 <i class="lni lni-map-marker"></i>
                             </div>
-                            <div class="contact-info-content media-body" style="display: flex; align-items: center;>
+                            <div class="contact-info-content media-body" style="display: flex; align-items: center;">
                                 <p class="text"> Paskal Hyper Square A-59 3F Jl. Pasirkaliki No. 25-27 Bandung 40181, West Java, Indonesia</p>
                             </div>
                         </div> <!-- single contact info -->
@@ -444,115 +454,111 @@
                         </div> <!-- single contact info -->
                     </div>
                 </div> <!-- row -->
-            </div> <!-- contact info -->
+            </div> <!-- contact info -->            
             <div class="row">
                 <div class="col-lg-12">
                     <div class="contact-wrapper form-style-two pt-115">
-                        <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Hubungi <span>Kami.</span></h4>
-                        
-                        <form id="contact" method="post" action="mail.php">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Nama Lengkap (wajib)</label>
-                                        <div class="input-items default">
-                                            <input name="name" type="text" placeholder="Name">
-                                            <i class="lni lni-user"></i>
-                                        </div>
-                                    </div> <!-- form input -->
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Nama Rental
-                                            <div class="input-items default">
-                                                <input name="name_rental" type="text" placeholder="Nama Rental">
-                                                <i class="lni lni-restaurant"></i>
+                        <h4 class="contact-title pb-10 text-center"><i class="lni lni-envelope"></i> Hubungi <span>Kami.</span></h4>
+                        <div id="example2">
+                            <form id="contact" method="post" action="mail.php">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-25" style="display: flex; justify-content: center;">
+                                            <span>Nama Lengkap (wajib)
+                                            <div class="input-items default" style="width: 720px">
+                                                <input name="name" type="text" placeholder="Name" style="margin-top: 10px;">
+                                                <i class="lni lni-user" style="margin-top: 10px;"></i>
                                             </div>
-                                        </span>
-                                    </div> <!-- form input -->
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Email (wajib)
-                                            <div class="input-items default">
-                                                <input type="email" name="email" placeholder="Email">
-                                                <i class="lni lni-envelope"></i>
-                                            </div>
-                                        </span>
-                                    </div> <!-- form input -->
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>No. HP/Whatsapp (wajib)
-                                            <div class="input-items default">
-                                                <input name="phone" type="text" placeholder="+62 8996 2293 8111">
-                                                <i class="lni lni-phone"></i>
-                                            </div>
-                                        </span>
-                                    </div> <!-- form input -->
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Subjek
-                                            <div class="input-items default">
-                                                <select name="subject" class="form-control" aria-required="true" aria-invalid="false">
-                                                    <option value="Paket Trial">Paket Trial</option>
-                                                    <option value="Paket Starter">Paket Starter</option>
-                                                    <option value="Paket Basic">Paket Basic</option>
-                                                    <option value="Paket Enterprise">Paket Enterprise</option>
-                                                    <option value="Pertanyaan lainnya">Pertanyaan lainnya</option>
-                                                </select>
-                                            </div>
-                                        </span>                                        
-                                    </div>                                    
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Jenis Rental (wajib)
-                                        <div class="checkbox-items default">                                            
-                                            <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Motor">&nbsp Rental Motor</span> <br>
-                                            <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Mobil">&nbsp Rental Mobil</span>                              
-                                        </div>
-                                        </span>
-                                    </div> <!-- form input -->
-                                </div>                                
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Jumlah Unit (wajib)</span>
-                                        <div class="radio">
-                                            <span><input type="radio" name="jumlah" value="5-19 unit" checked="checked">&nbsp 5-19 unit</span>
-                                        </div>
-                                        <div class="radio">
-                                            <span><input type="radio" name="jumlah" value="20-29 unit">&nbsp 20-29 unit</span>
-                                        </div>
-                                        <div class="radio">
-                                            <span><input type="radio" name="jumlah" value="30-39 unit">&nbsp 30-39 unit</span>
-                                        </div>
-                                        <div class="radio">
-                                            <span><input type="radio" name="jumlah" value="40-49 unit">&nbsp 30-39 unit</span>
-                                        </div>
-                                        <div class="radio">
-                                            <span><input type="radio" name="jumlah" value="lebih dari 50 unit">&nbsp Lebih dari 50 unit</span>
+                                            </span>
+                                        </div> <!-- form input -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
+                                            <span>Nama Rental
+                                                <div class="input-items default" style="width: 720px">
+                                                    <input name="name_rental" type="text" placeholder="Nama Rental" style="margin-top: 10px;">
+                                                    <i class="lni lni-restaurant" style="margin-top: 10px;"></i>
+                                                </div>
+                                            </span>
+                                        </div> <!-- form input -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
+                                            <span>Email (wajib)
+                                                <div class="input-items default" style="width: 720px">
+                                                    <input type="email" name="email" placeholder="Email" style="margin-top: 10px;">
+                                                    <i class="lni lni-envelope" style="margin-top: 10px;"></i>
+                                                </div>
+                                            </span>
+                                        </div> <!-- form input -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
+                                            <span>No. HP/Whatsapp (wajib)
+                                                <div class="input-items default" style="width: 720px; margin-top: 10px;">
+                                                    <input name="phone" type="text" placeholder="+62 8996 2293 8111" style="margin-top: 10px;">
+                                                    <i class="lni lni-phone" style="margin-top: 10px;"></i>
+                                                </div>
+                                            </span>
+                                        </div> <!-- form input -->
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
+                                            <span>Subjek
+                                                <div class="input-items default" style="width: 720px; margin-top: 10px;">
+                                                    <select name="subject" class="form-control" aria-required="true" aria-invalid="false">
+                                                        <option value="Paket Trial">Paket Trial</option>
+                                                        <option value="Paket Starter">Paket Starter</option>
+                                                        <option value="Paket Basic">Paket Basic</option>
+                                                        <option value="Paket Enterprise">Paket Enterprise</option>
+                                                        <option value="Pertanyaan lainnya">Pertanyaan lainnya</option>
+                                                    </select>
+                                                </div>
+                                            </span>                                        
+                                        </div>                                    
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40 ml-65" style="justify-content: center;">
+                                            <span>Jenis Rental (wajib) :
+                                                <div class="checkbox-items default" style="margin-top: 10px;">
+                                                    <span class="checkbox" ><input type="checkbox" name="jenis_rental[]" value="Rental Motor">&nbsp Rental Motor</span> &nbsp; &nbsp;
+                                                    <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Mobil">&nbsp Rental Mobil</span>                              
+                                                </div>
+                                            <!-- <div class="checkbox-items default">                                            
+                                            </div> -->
+                                            </span>
+                                        </div> <!-- form input -->
+                                    </div>                                
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40 ml-65">
+                                            <span>Jumlah Unit (wajib) : &nbsp; &nbsp;</span> 
+                                                <div class="radio" style="margin-top: 10px;">
+                                                    <span><input type="radio" name="jumlah" value="5-19 unit">&nbsp 5-19 unit</span> &nbsp; &nbsp;                              
+                                                    <span><input type="radio" name="jumlah" value="30-39 unit">&nbsp 30-39 unit</span> &nbsp; &nbsp;
+                                                    <span><input type="radio" name="jumlah" value="20-29 unit">&nbsp 20-29 unit</span> &nbsp; &nbsp;                           
+                                                    <span><input type="radio" name="jumlah" value="40-49 unit">&nbsp 30-39 unit</span> &nbsp; &nbsp;                            
+                                                    <span><input type="radio" name="jumlah" value="lebih dari 50 unit">&nbsp Lebih dari 50 unit</span>
+                                                </div>                             
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-input mt-25">
-                                        <span>Isi Pertanyaan</span>
-                                        <div class="input-items default">
-                                            <textarea name="pertanyaan" placeholder="Pertanyaan"></textarea>
-                                            <i class="lni lni-pencil-alt"></i>
-                                        </div>
-                                    </div> <!-- form input -->
-                                </div>
-                                <p class="form-message"></p>
-                                <div class="col-md-12">
-                                    <div class="form-input light-rounded-buttons mt-30">
-                                        <button id="sender" class="main-btn light-rounded-two">Kirim</button>
-                                    </div> <!-- form input -->
-                                </div>
-                            </div> <!-- row -->
-                        </form>
+                                    <div class="col-md-12">
+                                        <div class="form-input mt-40 ml-65" style="justify-content: center;">
+                                            <span>Isi Pertanyaan</span>
+                                            <div class="input-items default" style="width: 720px; margin-top: 10px;">
+                                                <textarea name="pertanyaan" placeholder="Pertanyaan" style="height:200px"></textarea>
+                                                <i class="lni lni-pencil-alt"></i>
+                                            </div>
+                                        </div> <!-- form input -->
+                                    </div>
+                                    <p class="form-message"></p>
+                                    <div class="col-md-12">
+                                        <div class="form-input light-rounded-buttons mt-60 ml-65 mb-25">
+                                            <button id="sender" class="main-btn light-rounded-two">Kirim</button>
+                                        </div>  <!-- form input -->
+                                    </div>
+                                </div> <!-- row -->
+                            </form>
+                        </div>
                     </div> <!-- contact wrapper form -->
                 </div>
             </div> <!-- row -->
