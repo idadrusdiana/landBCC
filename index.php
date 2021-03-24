@@ -122,14 +122,14 @@
                                         <li><a class="main-btn rounded-one" href="#kontak">Hubungi Kami</a></li>                                        
                                     </ul>
                                 </div>
-                            </div>
+                            </div>                            
                         </div> <!-- row -->
                     </div> <!-- container -->
-                    <div class="slider-image-box d-none d-lg-flex align-items-end">
-                        <div class="slider-image">
+                    <!-- <div class="slider-image-box d-none d-lg-flex align-items-end">
+                        <div class="slider-image"> -->
                             <!-- <img src="assets/images/banner/rent yoyaku.png" alt="Hero"> -->
-                        </div> <!-- slider-imgae -->
-                    </div> <!-- slider-imgae box -->
+                        <!-- </div> 
+                    </div>  -->
                 </div> <!-- carousel-item -->               
             </div>            
         </div>
@@ -463,9 +463,9 @@
                             <form id="contact" method="post" action="mail.php">
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-input mt-25" style="display: flex; justify-content: center;">
-                                            <span>Nama Lengkap (wajib)
-                                            <div class="input-items default" style="width: 720px">
+                                        <div class="form-input mt-25 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
+                                            <span style="width:100%">Nama Lengkap (wajib)
+                                            <div class="input-items default" style="width:100%">
                                                 <input name="name" type="text" placeholder="Name" style="margin-top: 10px;">
                                                 <i class="lni lni-user" style="margin-top: 10px;"></i>
                                             </div>
@@ -473,9 +473,9 @@
                                         </div> <!-- form input -->
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
-                                            <span>Nama Rental
-                                                <div class="input-items default" style="width: 720px">
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
+                                            <span style="width:100%">Nama Rental
+                                                <div class="input-items default" style="width: 100%">
                                                     <input name="name_rental" type="text" placeholder="Nama Rental" style="margin-top: 10px;">
                                                     <i class="lni lni-restaurant" style="margin-top: 10px;"></i>
                                                 </div>
@@ -483,9 +483,9 @@
                                         </div> <!-- form input -->
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
-                                            <span>Email (wajib)
-                                                <div class="input-items default" style="width: 720px">
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
+                                            <span  style="width:100%">Email (wajib)
+                                                <div class="input-items default" style="width: 100%">
                                                     <input type="email" name="email" placeholder="Email" style="margin-top: 10px;">
                                                     <i class="lni lni-envelope" style="margin-top: 10px;"></i>
                                                 </div>
@@ -493,9 +493,9 @@
                                         </div> <!-- form input -->
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
-                                            <span>No. HP/Whatsapp (wajib)
-                                                <div class="input-items default" style="width: 720px; margin-top: 10px;">
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
+                                            <span style="width:100%">No. HP/Whatsapp (wajib)
+                                                <div class="input-items default" style="width: 100%; margin-top: 10px;">
                                                     <input name="phone" type="text" placeholder="+62 8996 2293 8111" style="margin-top: 10px;">
                                                     <i class="lni lni-phone" style="margin-top: 10px;"></i>
                                                 </div>
@@ -503,9 +503,9 @@
                                         </div> <!-- form input -->
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40" style="display: flex; justify-content: center;">
-                                            <span>Subjek
-                                                <div class="input-items default" style="width: 720px; margin-top: 10px;">
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
+                                            <span style="width:100%">Subjek
+                                                <div class="input-items default" style="width: 100%; margin-top: 10px;">
                                                     <select name="subject" class="form-control" aria-required="true" aria-invalid="false">
                                                         <option value="Paket Trial">Paket Trial</option>
                                                         <option value="Paket Starter">Paket Starter</option>
@@ -518,9 +518,9 @@
                                         </div>                                    
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40 ml-65" style="justify-content: center;">
-                                            <span>Jenis Rental (wajib) :
-                                                <div class="checkbox-items default" style="margin-top: 10px;">
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="justify-content: center;">
+                                            <span style="width:100%">Jenis Rental (wajib) :
+                                                <div class="checkbox-items default" style="width:100%; margin-top: 10px;">
                                                     <span class="checkbox" ><input type="checkbox" name="jenis_rental[]" value="Rental Motor">&nbsp Rental Motor</span> &nbsp; &nbsp;
                                                     <span class="checkbox"><input type="checkbox" name="jenis_rental[]" value="Rental Mobil">&nbsp Rental Mobil</span>                              
                                                 </div>
@@ -530,8 +530,8 @@
                                         </div> <!-- form input -->
                                     </div>                                
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40 ml-65">
-                                            <span>Jumlah Unit (wajib) : &nbsp; &nbsp;</span> 
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5">
+                                            <span style="width:100%">Jumlah Unit (wajib) : &nbsp; &nbsp;</span> 
                                                 <div class="radio" style="margin-top: 10px;">
                                                     <span><input type="radio" name="jumlah" value="5-19 unit">&nbsp 5-19 unit</span> &nbsp; &nbsp;                              
                                                     <span><input type="radio" name="jumlah" value="30-39 unit">&nbsp 30-39 unit</span> &nbsp; &nbsp;
@@ -542,9 +542,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-12">
-                                        <div class="form-input mt-40 ml-65" style="justify-content: center;">
-                                            <span>Isi Pertanyaan</span>
-                                            <div class="input-items default" style="width: 720px; margin-top: 10px;">
+                                        <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="justify-content: center;">
+                                            <span style="width:100%">Isi Pertanyaan</span>
+                                            <div class="input-items default" style="width: 100%; margin-top: 10px;">
                                                 <textarea name="pertanyaan" placeholder="Pertanyaan" style="height:200px"></textarea>
                                                 <i class="lni lni-pencil-alt"></i>
                                             </div>
@@ -552,7 +552,7 @@
                                     </div>
                                     <p class="form-message"></p>
                                     <div class="col-md-12">
-                                        <div class="form-input light-rounded-buttons mt-60 ml-65 mb-25">
+                                        <div class="form-input light-rounded-buttons mt-40 mb-25 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5">
                                             <button id="sender" class="main-btn light-rounded-two">Kirim</button>
                                         </div>  <!-- form input -->
                                     </div>
