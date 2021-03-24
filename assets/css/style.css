@@ -2856,6 +2856,16 @@ p {
     display: inline-block;
 }
 
+.form-input .radio .radio2 {
+    margin-left: 15px;
+}
+
+@media (max-width: 767px) {
+    .form-input .radio .radio2 {
+        margin-left: 0px;
+    }
+}
+
 .form-input .input-items {
     position: relative;
 }

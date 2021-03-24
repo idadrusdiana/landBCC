@@ -466,7 +466,7 @@
                                         <div class="form-input mt-25 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
                                             <span style="width:100%">Nama Lengkap (wajib)
                                             <div class="input-items default" style="width:100%">
-                                                <input name="name" type="text" placeholder="Name" style="margin-top: 10px;">
+                                                <input name="name" type="text" placeholder="Yoyaku" style="margin-top: 10px;">
                                                 <i class="lni lni-user" style="margin-top: 10px;"></i>
                                             </div>
                                             </span>
@@ -476,7 +476,7 @@
                                         <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
                                             <span style="width:100%">Nama Rental
                                                 <div class="input-items default" style="width: 100%">
-                                                    <input name="name_rental" type="text" placeholder="Nama Rental" style="margin-top: 10px;">
+                                                    <input name="name_rental" type="text" placeholder="Yoyaku Rental" style="margin-top: 10px;">
                                                     <i class="lni lni-restaurant" style="margin-top: 10px;"></i>
                                                 </div>
                                             </span>
@@ -486,7 +486,7 @@
                                         <div class="form-input mt-40 ml-sm-3 mr-sm-3 ml-md-5 mr-md-5" style="display: flex; justify-content: center;">
                                             <span  style="width:100%">Email (wajib)
                                                 <div class="input-items default" style="width: 100%">
-                                                    <input type="email" name="email" placeholder="Email" style="margin-top: 10px;">
+                                                    <input type="email" name="email" placeholder="yoyaku@gmail.com" style="margin-top: 10px;">
                                                     <i class="lni lni-envelope" style="margin-top: 10px;"></i>
                                                 </div>
                                             </span>
@@ -536,8 +536,8 @@
                                                     <span><input type="radio" name="jumlah" value="5-19 unit">&nbsp 5-19 unit</span> &nbsp; &nbsp;                              
                                                     <span><input type="radio" name="jumlah" value="30-39 unit">&nbsp 30-39 unit</span> &nbsp; &nbsp;
                                                     <span><input type="radio" name="jumlah" value="20-29 unit">&nbsp 20-29 unit</span> &nbsp; &nbsp;                           
-                                                    <span><input type="radio" name="jumlah" value="40-49 unit">&nbsp 30-39 unit</span> &nbsp; &nbsp;                            
-                                                    <span><input type="radio" name="jumlah" value="lebih dari 50 unit">&nbsp Lebih dari 50 unit</span>
+                                                    <span><input type="radio" name="jumlah" value="40-49 unit">&nbsp 30-39 unit</span>                            
+                                                    <span class="radio2"><input type="radio" name="jumlah" value="lebih dari 50 unit">&nbsp Lebih dari 50 unit</span>
                                                 </div>                             
                                         </div>
                                     </div>
