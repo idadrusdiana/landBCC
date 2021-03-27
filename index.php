@@ -89,11 +89,10 @@
 
                         <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
                             <ul class="navbar-nav m-auto">
-                                <li class="nav-item active"><a class="page-scroll" href="#home">Beranda</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#benefit">Benefit</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#fitur">Fitur</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#harga">Harga</a></li>
-                                <li class="nav-item"><a class="page-scroll" href="#question">Q&A</a></li>                                
+                                <li class="nav-item active"><a class="page-scroll" href="#home">Home</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#benefit">Activity</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#fitur">About</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#harga">Anak Asuh</a></li>                                                               
                                 <li class="nav-item"><a class="page-scroll" href="#kontak">Kontak</a></li>
                             </ul>
                         </div>
@@ -116,8 +115,8 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="slider-content">
-                                    <h2 class="text" font-size="39px">Y O Y A K U . I D &nbsp &nbsp ADALAH</h2>
-                                    <h1 class="title">SYSTEM MANAGEMENT BOOKING </h1>                                    
+                                    <h2 class="text" font-size="39px">B . C . C  &nbsp ADALAH</h2>
+                                    <h1 class="title">BATUJAJAR COMMUNITY CARE </h1>                                    
                                     <ul class="slider-btn rounded-buttons">
                                         <li><a class="main-btn rounded-one" href="#kontak">Hubungi Kami</a></li>                                        
                                     </ul>
